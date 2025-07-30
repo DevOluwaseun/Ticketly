@@ -7,15 +7,18 @@
 ## 🚀 Features
 
 - 🔐 **Authentication**
+
   - JWT login and protected routes
   - Role-based access: Admin, Agent, User
 
 - 🧾 **Ticket Management**
+
   - Users can create and view tickets
   - Agents can view & respond to assigned tickets
   - Statuses: `open`, `pending`, `closed`
 
 - 💬 **Real-Time Messaging**
+
   - Socket.IO for live ticket-based conversations
   - One chat thread per ticket
   - Message storage with timestamps
@@ -29,10 +32,10 @@
 
 ## 🧰 Tech Stack
 
-| Frontend | Backend     | Database | Real-time |
-|----------|-------------|----------|-----------|
-| React    | Node.js     | MongoDB  | Socket.IO |
-| Tailwind | Express.js  | Mongoose | JWT       |
+| Frontend | Backend    | Database | Real-time |
+| -------- | ---------- | -------- | --------- |
+| React    | Node.js    | MongoDB  | Socket.IO |
+| Tailwind | Express.js | Mongoose | JWT       |
 
 ---
 
@@ -45,10 +48,10 @@ git clone https://github.com/DevOluwaseun/ticketly.git
 cd Ticketly
 ```
 
-
 #### 2. env file
 
 Create a .env file in your backend/ folder:
+
 ```bash
 PORT=5001
 MONGO_URI=your_mongodb_uri
@@ -71,14 +74,19 @@ npm start
 ```
 
 ## 🚧 Roadmap
-	•	Ticket creation and management
-	•	Socket.IO real-time chat
-	•	Authentication and roles
-	•	Typing indicators
-	•	Admin dashboard
-	•	Email notifications
 
- ## 🧑‍💻 Author
+    •	Ticket creation and management
+    •	Socket.IO real-time chat
+    •	Authentication and roles
+    •	Typing indicators
+    •	Admin dashboard
+    •	Email notifications
+
+## In Progress
+
+25% Done
+
+## 🧑‍💻 Author
 
 Oluwaseun Atanda  
 🔗 Portfolio | 🐙 GitHub | 📫 LinkedIn
