@@ -82,10 +82,6 @@ npm start
     •	Admin dashboard
     •	Email notifications
 
-## In Progress
-
-25% Done
-
 ## 🧑‍💻 Author
 
 Oluwaseun Atanda  

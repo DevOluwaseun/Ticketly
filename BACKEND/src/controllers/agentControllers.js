@@ -1,4 +1,5 @@
 import Ticket from "../models/ticketModel.js";
+import User from "../models/userModel.js";
 
 export const unassignedTickets = async (req, res) => {
   try {
@@ -58,6 +59,24 @@ export const getAssignedTickets = async (req, res) => {
       status: "success",
       data: {
         tickets,
+      },
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: "fail",
+      message: error.message,
+    });
+  }
+};
+
+export const userProfile = async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+
+    res.status(200).json({
+      status: "success",
+      data: {
+        user: user,
       },
     });
   } catch (error) {
