@@ -1,27 +1,52 @@
 # 🎫 Ticketly – Real-Time Ticketing & Chat Support App
 
-**Ticketly** is a full-stack ticketing system that allows users to create support tickets and chat with agents in real-time. It features authentication, role-based access, and secure Socket.IO messaging — perfect for customer service teams and support workflows.
+**Ticketly** is a plug-and-play customer support solution designed for small business owners. It enables them to handle customer queries and complaints through a unified system that combines real-time chat and ticket management. Each business can integrate their support page into a website or social media profile to offer a seamless support experience.
 
 ---
 
 ## 🚀 Features
 
-- 🔐 **Authentication**
+- 🏪 **Business Account**
 
-  - JWT login and protected routes
-  - Role-based access: Admin, Agent, User
+  - Each business owner can create a unique account.
+  - Get a unique URL to embed on a website or share on social media.
+  - Manage support settings and team members from a centralized dashboard.
 
-- 🧾 **Ticket Management**
+- 👨‍💼 **Admin Dashboard**
 
-  - Users can create and view tickets
-  - Agents can view & respond to assigned tickets
-  - Statuses: `open`, `pending`, `closed`
+  - View all tickets and chat sessions.
+  - Assign agents to handle tickets.
+  - Monitor response times and customer satisfaction.
 
 - 💬 **Real-Time Messaging**
 
   - Socket.IO for live ticket-based conversations
   - One chat thread per ticket
   - Message storage with timestamps
+
+- 🧑‍💻 **Agents**
+
+  - Support agents can access assigned tickets and participate in live chats.
+  - Role-based access to avoid data leakage across businesses.
+
+- 🙋 **Users / Customers**
+
+  - Customers can create a ticket or start a chat — anonymously or with an account.
+  - Logged-in users can view ticket history and continue past chats.
+
+- 💬 **Chat & Ticketing Integration**
+
+  - Real-time chat with auto-escalation to ticketing.
+  - Chat history stored with the ticket for complete context.
+
+- 📊 **Analytics**
+
+  - Track metrics such as ticket resolution time, chat response rate, and agent performance.
+
+- 🔒 **Authentication & Roles**
+
+  - Secure signups and logins for Admins, Agents, and Users.
+  - Role-based dashboards and access control.
 
 - 🧠 **Backend Structure**
   - Modular Mongoose schemas: User, Ticket, Message
@@ -75,12 +100,21 @@ npm start
 
 ## 🚧 Roadmap
 
-    •	Ticket creation and management
-    •	Socket.IO real-time chat
-    •	Authentication and roles
-    •	Typing indicators
-    •	Admin dashboard
-    •	Email notifications
+• Business Account and Unique Referral Link
+• User Roles: Admin, Agent, User
+• Notifications for New Tickets / Chats
+• File Upload Support in Chat
+• Agent Availability System
+• Chat Bot Auto-Response (Future AI integration)
+• SaaS Admin Panel for DevOluwaseun to monitor all tenants
+
+## 🧠 Inspiration
+
+Many small businesses and home-run ventures lack an affordable and easy-to-use support system. Ticketly is built with this audience in mind — quick setup, smooth UX, and full control without tech stress.
+
+## 🤝 Contributing
+
+PRs and feedback are welcome!
 
 ## 🧑‍💻 Author
 
