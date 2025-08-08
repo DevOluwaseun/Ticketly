@@ -1,6 +1,6 @@
 # 🎫 Ticketly – Real-Time Ticketing & Chat Support App
 
-**Ticketly** is a plug-and-play customer support solution designed for small business owners. It enables them to handle customer queries and complaints through a unified system that combines real-time chat and ticket management. Each business can integrate their support page into a website or social media profile to offer a seamless support experience.
+**Ticketly** (temporary name) is a plug-and-play customer support solution designed for small business owners. It enables them to handle customer queries and complaints through a unified system that combines real-time chat and ticket management. Each business can integrate their support page into a website or social media profile to offer a seamless support experience.
 
 ---
 
