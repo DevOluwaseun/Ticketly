@@ -16,7 +16,7 @@
 
   - View all tickets and chat sessions.
   - Assign agents to handle tickets.
-  - Monitor response times and customer satisfaction.
+  - Take over ticket.
 
 - 💬 **Real-Time Messaging**
 
@@ -106,7 +106,7 @@ npm start
 • File Upload Support in Chat
 • Agent Availability System
 • Chat Bot Auto-Response (Future AI integration)
-• SaaS Admin Panel for DevOluwaseun to monitor all tenants
+• SaaS Admin Panel for Me to monitor all tenants
 
 ## 🧠 Inspiration
 
