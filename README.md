@@ -108,6 +108,32 @@ npm start
 • Chat Bot Auto-Response (Future AI integration)
 • SaaS Admin Panel for Me to monitor all tenants
 
+<!-- Add this after the Tech Stack section -->
+
+## ✅ Current Status
+
+### Completed Features
+
+- ✅ User authentication (signup, login, JWT)
+- ✅ Ticket creation and management
+- ✅ Message system for ticket conversations
+- ✅ Agent ticket assignment
+- ✅ Protected routes and middleware
+- ✅ Responsive admin dashboard
+- ✅ Unit tests for core functionality
+
+### In Progress
+
+- 🚧 Frontend form validation
+- 🚧 Socket.IO real-time chat
+- 🚧 File upload support
+
+### Next Up
+
+- 📋 User dashboard
+- 📋 Email notifications
+- 📋 Business account features
+
 ## 🧠 Inspiration
 
 Many small businesses and home-run ventures lack an affordable and easy-to-use support system. Ticketly is built with this audience in mind — quick setup, smooth UX, and full control without tech stress.
